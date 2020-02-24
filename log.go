@@ -65,7 +65,7 @@ func (l Level) String() string {
 	}
 }
 
-// getText message arguments into single string
+// getText turns message arguments into single string
 func getText(args []interface{}, pattern string, level Level, file string, line int) string {
 	var msg string
 	if pattern == "" {
